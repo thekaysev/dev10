@@ -174,3 +174,14 @@ input[type=submit]:hover {
 #details p {
   padding: 0;
   margin: 0.8em 0 0 0;}
+
+.button {
+  background-color: #22B786;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
