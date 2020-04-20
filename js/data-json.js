@@ -14,7 +14,7 @@ xhr.onload = function() {                       // When readystate changes
     for (var i = 0; i < responseObject.events.length; i++) { // Loop through object
       newContent += '<div class="event">';
       newContent += '<img src="' + responseObject.events[i].map + '" ';
-      newContent += 'height = "320" width = "320" '; + responseObject.events[i].location + '" />';
+      newContent += 'height = "300" width = "300" '; + responseObject.events[i].location + '" />';
       newContent += '<p><b>' + responseObject.events[i].location + '</b><br>';
       newContent += responseObject.events[i].date + '</p>';
       newContent += '</div>';
